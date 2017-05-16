@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>文件上传模块 - layui</title>
+		<link rel="stylesheet" href="../src/css/layui.css">
+		<link rel="stylesheet" href="../src/css/modules/upload/imgupload.css">
+
+		<style>
+
+		</style>
+	</head>
+
+	<body>
+
+		<div id="cs" class="layui-box layui-upload-button">
+		</div>
+		<script src="../third/jquery-1.11.0.js"></script>
+		<script src="../src/layui.js"></script>
+		<script src="../third/webuploader/webuploader.js"></script>
+		<script>
+			layui.use('imgupload', function() {
+
+				layui.imgupload({});
+
+			});
+		</script>
+	</body>
+
+</html>

@@ -47,6 +47,7 @@ modules = {
   ,imgupload:'modules/imgupload'//图标上传
   ,tree: 'modules/tree' //树结构
   ,treeSelect: 'modules/treeSelect' //选择树
+  ,slider: 'modules/slider' //选择树
   ,table: 'modules/table' //富表格
   ,element: 'modules/element' //常用元素操作
   ,util: 'modules/util' //工具块
